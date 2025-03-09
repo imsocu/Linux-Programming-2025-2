@@ -1,4 +1,6 @@
 # Linux2025-2
+## 1. Linking
+
 Lưu ý: 
 - file (.c) nẳm trong `src` ;
 - file (.o) nẳm trong `obj` ;
@@ -15,7 +17,6 @@ sudo apt install openssh-server -y
 sudo apt install make -y
 sudo apt install gcc -y
 ```
-## 1. Linking
 Mặc định:
 
 ![image](https://github.com/user-attachments/assets/c378845e-ae1b-4a11-b7fc-76c8c62cf15c)
@@ -36,3 +37,49 @@ Có 2 kiểu `make all`:
 
 ![image](https://github.com/user-attachments/assets/2bfc7c0b-39d3-4c83-91f2-f7f2811743ad)
 - Tạo một `clean` để xóa file nằm trong: `rm -rf obj lib bin`
+
+## 2. Linux File System.
+
+
+## 3. Linux Process.
+
+### 3.1 Program  & Process.
+
+![image](https://github.com/user-attachments/assets/684d4954-2703-4d59-b638-c675806f3860)
+
+#liệt kê các process đang chạy. `# ps -aux`
+
+![image](https://github.com/user-attachments/assets/57287ef8-bd6d-42e9-99de-fa2d0b670a93)
+
+### 3.2 Command-line Argument.
+
+- `argc` (Argument Count): Số lượng tham số truyền vào chương trình `%d`, bao gồm cả tên chương trình.
+- `argv` (Argument Vector): Mảng chứa các chuỗi (string) `%s` đại diện cho từng tham số truyền vào.
+
+### 3.3 Memory Layout.
+
+![image](https://github.com/user-attachments/assets/6600df5a-83f6-4dbf-a86c-b46d621466b0)
+
+- Stack
+- Heap
+- Uninitializad data
+- Initialized data
+- Text
+
+- Công cụ debug : `Valgrind` để check lỗi.
+  
+## 4. Operations on Process.
+
+System Call fork()
+
+![image](https://github.com/user-attachments/assets/03f52db4-8584-4a37-abd4-d4ce096a209a)
+
+ Family
+
+
+
+
+
+
+
+
