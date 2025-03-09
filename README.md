@@ -74,10 +74,26 @@ System Call fork()
 
 ![image](https://github.com/user-attachments/assets/03f52db4-8584-4a37-abd4-d4ce096a209a)
 
- Family
+Exec Family
+
+![image](https://github.com/user-attachments/assets/7c690a80-1f7c-419c-bdee-24faba94479d)
+
+Process Termination
+
+![image](https://github.com/user-attachments/assets/518e6a98-c00b-4e1d-a8b9-a71cb201d63f)
+
+## 5. Process Management.
+
+![image](https://github.com/user-attachments/assets/9a3559a5-59d1-41e2-8960-0f83d695c7ce)
+
+- fork() wait() exit()
+
+## 6. Orphane Process and Zombie Process.
+
+### 6.1 Orphane Process.
 
 
-
+### 6.2 Zombie Process.
 
 
 
