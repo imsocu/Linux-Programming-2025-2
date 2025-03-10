@@ -56,6 +56,11 @@ Có 2 kiểu `make all`:
 
 ### 2.2 Operations on File
 
+- Các System Call: gọi hàm  open(), read(), write(), close() để chuyển đổi từ user mode > kernel space
+
+![image](https://github.com/user-attachments/assets/e162ba63-632a-4e9f-b36d-b108b3e76b9b)
+
+
 ![image](https://github.com/user-attachments/assets/fc3545bc-d42a-45f3-9849-cf40f082a74d)
 
 
@@ -68,6 +73,9 @@ Có 2 kiểu `make all`:
   
 ## 3. Linux Process.
 
+<details>
+ <summary>Click vào đây để xem thêm.</summary>
+  
 ### 3.1 Program  & Process.
 
 ![image](https://github.com/user-attachments/assets/684d4954-2703-4d59-b638-c675806f3860)
@@ -92,9 +100,14 @@ Có 2 kiểu `make all`:
 - Text
 
 - Công cụ debug : `Valgrind` để check lỗi.
-  
-## 4. Operations on Process.
 
+</details>
+
+### 3.4. Operations on Process.
+
+<details>
+ <summary>Click vào đây để xem thêm.</summary>
+  
 System Call fork()
 
 ![image](https://github.com/user-attachments/assets/03f52db4-8584-4a37-abd4-d4ce096a209a)
@@ -107,20 +120,20 @@ Process Termination
 
 ![image](https://github.com/user-attachments/assets/518e6a98-c00b-4e1d-a8b9-a71cb201d63f)
 
-## 5. Process Management.
+### 3.5. Process Management.
 
 ![image](https://github.com/user-attachments/assets/9a3559a5-59d1-41e2-8960-0f83d695c7ce)
 
 - fork() wait() exit()
 
-## 6. Orphane Process and Zombie Process.
+### 3.6. Orphane Process and Zombie Process.
 
-### 6.1 Orphane Process.
-
-
-### 6.2 Zombie Process.
+#### 3.6.1 Orphane Process.
 
 
+#### 3.6.2 Zombie Process.
+
+</details>
 
 
 
