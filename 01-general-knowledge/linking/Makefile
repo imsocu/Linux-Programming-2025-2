@@ -35,7 +35,7 @@ create_lib_shared:
 all: create_objs_shared create_lib_shared
 	gcc  $(OBJ_DIR)/main.o -L$(LIB_SHARED_DIR) -lhello -o $(BIN_DIR)/use-shared-library
 
-# library static (.a) and obj static (.0) >> make all2
+# library static (.a) and obj static (.0) >> make all2 (luu y obj phai dc tao truoc lib neu ko se bao loi)
 all2: create_objs_static create_lib_static
 	gcc  $(OBJ_DIR)/main.o -L$(LIB_STATIC_DIR) -lhello -o $(BIN_DIR)/use-static-library
 
