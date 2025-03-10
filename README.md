@@ -45,9 +45,13 @@ Có 2 kiểu `make all`:
 
 ## 2. Linux File System.
 
+<details>
+ <summary>Click vào đây để xem thêm.</summary>
+  
 ### 2.1 Introduction
 
 - Tất cả mọi thứ trong Linux đều là file.
+  
 ![image](https://github.com/user-attachments/assets/a4943352-cbd9-4b3b-9650-a18c81ed83cc)
 
 ### 2.2 Operations on File
@@ -55,10 +59,13 @@ Có 2 kiểu `make all`:
 ![image](https://github.com/user-attachments/assets/fc3545bc-d42a-45f3-9849-cf40f082a74d)
 
 
+
 ### 2.3 File Management.
 
 ### 2.4 File Locking.
 
+</details>
+  
 ## 3. Linux Process.
 
 ### 3.1 Program  & Process.
