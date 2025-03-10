@@ -40,6 +40,11 @@ Có 2 kiểu `make all`:
 
 ## 2. Linux File System.
 
+### 2.2 Operations on File
+
+### 2.3 File Management.
+
+### 2.4 File Locking.
 
 ## 3. Linux Process.
 
