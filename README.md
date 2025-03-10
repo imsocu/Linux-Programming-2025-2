@@ -101,13 +101,8 @@ Có 2 kiểu `make all`:
 
 - Công cụ debug : `Valgrind` để check lỗi.
 
-</details>
-
 ### 3.4. Operations on Process.
 
-<details>
- <summary>Click vào đây để xem thêm.</summary>
-  
 System Call fork()
 
 ![image](https://github.com/user-attachments/assets/03f52db4-8584-4a37-abd4-d4ce096a209a)
